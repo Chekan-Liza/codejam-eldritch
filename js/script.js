@@ -10,7 +10,7 @@ ancientsData.forEach(el => {
 
     ancient.classList.add('ancient-card');
     ancient.id = el.id;
-    ancient.style.backgroundImage = `url(./../assets/Ancients/${el.name}.png)`;
+    ancient.style.backgroundImage = `url(./assets/Ancients/${el.name}.png)`;
 
     if(ancientsContainer) ancientsContainer.append(ancient);
 

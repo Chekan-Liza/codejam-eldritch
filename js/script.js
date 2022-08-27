@@ -504,7 +504,7 @@ const cards = document.querySelector('.cards');
 if(cards && mainDeck.length != 0){
     const deck = document.createElement('div');
     deck.classList.add('inverted');
-    deck.style.background = 'url(./../assets/mythicCardBackground.png)';
+    deck.style.background = 'url(./assets/mythicCardBackground.png)';
     cards.append(deck);
 }
 
@@ -539,7 +539,7 @@ if(inverted){
             //извлечение последнего элемента массива всей колоды
             let currentCard = mainDeck.pop(); 
             if(currentCard.color && currentCard.id){
-                card.style.background = `url(./../assets/MythicCards/${currentCard.color}/${currentCard.id}.png)`;
+                card.style.background = `url(./assets/MythicCards/${currentCard.color}/${currentCard.id}.png)`;
             }
             
             changeCount(CardsFirstStage, currentCard, boxStage1);

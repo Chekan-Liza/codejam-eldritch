@@ -52,6 +52,7 @@ for(let i = 0; i < ancientBtns.length; i++){
                 setLocalStorage('ancient', ancientBtns[i].parentNode.id);
             }
         });
+        
         modal.classList.add('active');
         overlay.classList.add('active');
     });
